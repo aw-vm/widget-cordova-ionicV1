@@ -11,6 +11,7 @@
   "dependencies": {
     "cordova-android": "^6.3.0",
     "cordova-custom-config": "^5.0.2",
+    "cordova-ios": "^4.5.4",
     "cordova-plugin-ace": "^0.1.2",
     "cordova-plugin-app-preferences": "^0.99.3",
     "cordova-plugin-device": "^1.1.4",
@@ -31,7 +32,8 @@
       "cordova-custom-config": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }
