@@ -14,7 +14,7 @@ En este caso funciona para abrir vistas y pasar datos a una app de ionic/cordova
 - Instalar Cordova-plugin-app-preferences
 - Ir a la carpeta native que se crea con ace.
 
-##Android
+## Android
 
 - Crear una carpeta que se llame res, dentro carpetas de layout, xml y drawable.
 - En la carpeta xml crear un archivo `test_widget_info.xml`. Este contiene las config iniciales del widget.
@@ -36,7 +36,7 @@ En este caso funciona para abrir vistas y pasar datos a una app de ionic/cordova
 </receiver>
 ````
 
-##IOS
+## IOS
 
 - Abrir `platforms/ios` en xcode.
 - En `General -> targets` damos click en el `+` para añadir un nuevo target y elegimos `today extension`.
@@ -69,7 +69,7 @@ En este caso funciona para abrir vistas y pasar datos a una app de ionic/cordova
 
 No olvides copiar la carpeta `widget` a `native/ios`.
 
-##IONIC / CORDOVA
+## IONIC / CORDOVA
 
 En este punto solo nos falta obtener los datos que guardamos en las plataformas nativas y para esto necesitamos el plugin de `Cordova-plugin-app-preferences` que instalamos anteriormente.
 
